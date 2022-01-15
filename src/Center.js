@@ -34,5 +34,4 @@ const Center = () => {
     </h1>
   );
 };
-
 export default Center;
