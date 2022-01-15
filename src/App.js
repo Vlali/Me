@@ -1,7 +1,22 @@
+import Center from "./Center";
 const App = () => {
   return (
     <>
-      <h1>Soon...</h1>
+      <main
+        style={{
+          minHeight: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "gray",
+        }}
+      >
+        <div>
+          <>
+            <Center></Center>
+          </>
+        </div>
+      </main>
     </>
   );
 };
